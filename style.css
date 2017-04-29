@@ -1,0 +1,8 @@
+.container {
+  display: inline-block;
+  border: 2px solid black;
+}
+
+label, input {
+  display: block;
+}

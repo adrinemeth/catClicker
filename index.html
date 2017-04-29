@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>catClicker app</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.2/knockout-min.js'></script>
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <ul id="cat-list"></ul>
+    <div id="cat">
+        <h2 id="cat-name"></h2>
+        <h4 id="cat-level" data-bind="text: level">
+            </h2>
+            <div id="cat-count"></div>
+            <img id="cat-img" src="" alt="cute cat">
+    </div>
+    <div id="admin-page">
+        <button id="admin-btn">ADMIN</BUTTON>
+        <button id="cancel-btn">CANCEL</BUTTON>
+        <div id="input-field">
+            <label for="change-name">Name: </label><input type="text" id="change-name" value="" label="Name" required>
+            <label for="change-score">Score: </label><input type="number" id="change-score" value="" label="Name">
+            <label for="change-url">URL: </label><input type="url" id="change-url" value="" required>
+            <button id="save-btn">SAVE</BUTTON>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
